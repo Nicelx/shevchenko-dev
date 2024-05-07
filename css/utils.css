@@ -1,0 +1,17 @@
+:root {
+    --breakpoint-lg: 1200px;
+
+    --color-dark: #333;
+    --shadow: 0 0 14px 0;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    width: var(--breakpoint-lg);
+  }
+  body.page {
+    flex-direction: column;
+    margin-bottom: 0 !important;
+    min-height: 100vh;
+    display: flex;
+  }

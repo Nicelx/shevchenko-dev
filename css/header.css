@@ -1,0 +1,27 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 60px;
+    height: 120px;
+}
+.site-header a { 
+    color: var(--color-dark);
+}
+.site-branding  {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.site-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.main-navigation {
+    width: auto;
+    gap: 10px;
+}
+.nav-menu {
+    display: flex;
+    gap: 15px;
+}
